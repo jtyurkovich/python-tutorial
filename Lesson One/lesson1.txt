@@ -1,7 +1,7 @@
 -- Lesson One --
 The solutions to each of these can be found on the group's Github page: https://github.com/jtyurkovich/python-tutorial
 
-(Keep in mind those are simply my solutions; they are not necessarily the only or best solutions for each problem.)
+(Keep in mind those are simply my solutions; they are not necessarily the only or best solutions for each problem. -jtyurkovich, 2014)
 
 (1)  Write a program that prints 'Hello World' to the screen.
 (2)  Write a program that asks the user for his name and greets him with his name.
