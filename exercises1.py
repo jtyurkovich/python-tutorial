@@ -134,11 +134,66 @@ else:
     print 'I let you win'
 
 
-# In[248]:
+# In[8]:
 
-# On to lists and strings
+# Write a function that takes two numbers as input and returns the largest of them. Use Python's if-then-else construct.
+def islarger(num1,num2):
+    if num1 > num2:
+        print num1
+    elif num1 == num2:
+        print num1
+    else:
+        print num2
+    
+num1 = input('Input first number: ')
+num2 = input('Input second number: ')
+
+islarger(num1,num2)
 
 
-# In[ ]:
+# In[14]:
 
-# Write a function that returns the largest element in a list.
+# Modify the previous function to take three numbers as input.
+def islarger(num1,num2,num3):
+    current_max = num1
+    
+    for num in [num1,num2,num3]:
+        if num > current_max:
+            current_max = num
+            
+    print current_max
+    
+num1 = input('Input first number: ')
+num2 = input('Input second number: ')
+num3 = input('Input third number: ')
+
+islarger(num1,num2,num3)
+
+
+# In[17]:
+
+# Use a built-in function to do the same thing (i.e., use Python's max() function).
+num1 = input('Input first number: ')
+num2 = input('Input second number: ')
+num3 = input('Input third number: ')
+
+print max(num1,num2,num3)
+
+
+# In[20]:
+
+# Write a program that calculates the length of the string: 'this string has 29 characters'. Do not use built-in functions.
+string = 'this string has 29 characters'
+
+length = 0
+
+for char in string:
+    length += 1
+    
+print length
+
+
+# In[21]:
+
+# Use a built-in function to do the same thing (i.e., use Python's len() function).
+print len('this string has 29 characters')
