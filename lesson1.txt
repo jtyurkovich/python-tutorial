@@ -1,7 +1,8 @@
--- Week One --
-The solutions to each of these can be found in the Week One folder on the group's Github page: https://github.com/jtyurkovich/python-tutorial
+-- Lesson One --
+The solutions to each of these can be found on the group's Github page: https://github.com/jtyurkovich/python-tutorial
 
--- Exercises --
+(Keep in mind those are simply my solutions; they are not necessarily the only or best solutions for each problem.)
+
 (1)  Write a program that prints 'Hello World' to the screen.
 (2)  Write a program that asks the user for his name and greets him with his name.
 (3)  Modify the previous program such that only the users Alice and Bob are greeted with their names.
