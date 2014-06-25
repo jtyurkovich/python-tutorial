@@ -1,0 +1,23 @@
+-- Week One --
+The solutions to each of these can be found in the Week One folder on the group's Github page: https://github.com/jtyurkovich/python-tutorial
+
+-- Exercises --
+(1) Write a program that prints 'Hello World' to the screen.
+(2) Write a program that asks the user for his name and greets him with his name.
+(3) Modify the previous program such that only the users Alice and Bob are greeted with their names.
+(4) Write a program that asks the user for a number n and prints the sum of the numbers 1 to n.
+(5) Modify the previous program such that only multiples of three or five are considered in the sum, e.g. 3, 5, 6, 9, 10, 12, 15 for n=17.
+(6) Write a program that asks the user for a number n and gives him the possibility to choose between computing the sum and computing the product of 1,…,n.
+(7) Write a program that prints a multiplication table for numbers up to 12.
+(8) Write a program that takes a number as input and determines if it is prime. 
+(9) Write a guessing game where the user has to guess a secret number. After every guess the program tells the user whether his number was too large or too small. Include a check to make sure the guess is in the correct range.
+
+
+-- Challenges --
+Challenge 1: Caeser Cipher
+Write a script that takes this string as input and breaks the code to read the message contained within:
+espqtcdeapcdzyezdzwgpestdrpedespstrspdezqqtgpd
+This code was encrypted using a shift cipher of 11 (t = t + 11 = e, h = h + 11 = s). Hint: use a dict to define the shift (code dict using a for loop; do not hardcode it) and cycle through the message using a for loop.
+
+Challenge 2: Palindrome Detector
+Write a script that takes a string as input and determines if it is a palindrome or not. A palindrome is a word or phrase that is the same forward and backward (e.g., radar).
