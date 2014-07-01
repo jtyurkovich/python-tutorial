@@ -124,11 +124,9 @@ str2 = 'TAG'
 flag = False
 
 for index in range(0,len(str1)-2):
-    if str1[index] == str2[0]:
-        if str1[index+1] == str2[1]:
-            if str1[index+2] == str2[2]:
-                flag = True
-                print str2 + ' found in ' + str1 + ' at index %s' %index
+    if str1[index:(index+2)] == str2:
+    	flag = True
+        print str2 + ' found in ' + str1 + ' at index %s' %index
 
 if not flag:
     print str2 + ' not found in ' + str1
