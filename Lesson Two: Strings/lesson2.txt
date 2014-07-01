@@ -4,11 +4,11 @@ The solutions to each of these can be found on the group's Github page: https://
 (Keep in mind those are simply my solutions; they are not necessarily the only or best solutions for each problem. -jtyurkovich, 2014)
 
 (1)  Write a function that takes a string as input and outputs the reverse of the string (e.g., input 'James is awesome' and output 'emosewa si semaJ').
-(2) Write a function that takes as input two DNA sequences of arbitrary but equal length and returns the positions of any SNPs that exist. Test with 'ACTCTATCGGCTACG' and 'ACTCTATCGACTACG' where a SNP has occurred at position 9 (zero-based indexing). Also report the SNP that occurred (i.e., which base was mutated to which base). Make sure your function can handle multiple SNPs.
-(3) Write a function that determines whether an input phrase is a pangram (a sentence that contains all the letters in the alphabet). Test it with 'The quick brown fox jumps over the lazy dog' which is a pangram. If the input is not a pangram, report which letter(s) is/are missing. 
-(4) Determine if the two strings are equal: 'AATAGATCGCTAGCT' and 'AATAGATCGCTAGCT'.
-(5) Determine if the substrings 'AATA' and 'TTT' are present in the larger string 'AATAGATCGCTAGCT'.
-(6) Now try the same problem again, but look for a substring that appears multiple times such as 'TAG'. Report the position within the string (zero-based indexing) at which the substring appears. 
+(2)  Write a function that takes as input two DNA sequences of arbitrary but equal length and returns the positions of any SNPs that exist. Test with 'ACTCTATCGGCTACG' and 'ACTCTATCGACTACG' where a SNP has occurred at position 9 (zero-based indexing). Also report the SNP that occurred (i.e., which base was mutated to which base). Make sure your function can handle multiple SNPs.
+(3)  Write a function that determines whether an input phrase is a pangram (a sentence that contains all the letters in the alphabet). Test it with 'The quick brown fox jumps over the lazy dog' which is a pangram. If the input is not a pangram, report which letter(s) is/are missing. 
+(4)  Determine if the two strings are equal: 'AATAGATCGCTAGCT' and 'AATAGATCGCTAGCT'.
+(5)  Determine if the substrings 'AATA' and 'TTT' are present in the larger string 'AATAGATCGCTAGCT'.
+(6)  Now try the same problem again, but look for a substring that appears multiple times such as 'TAG'. Report the position within the string (zero-based indexing) at which the substring appears. 
 
 -- Challenges --
 Challenge 1: Reading from and writing to a text file
