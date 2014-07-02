@@ -107,7 +107,7 @@ def isprime(num):
     
     return True
 
-pnum = input('Enter an integer: ')
+num = input('Enter an integer: ')
 if isprime(num):
     print '%s is prime' % num
 else:
