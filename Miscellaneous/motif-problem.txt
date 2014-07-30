@@ -35,7 +35,7 @@ ACGACGACACGACATCTACGTAGACATGACATCGGCGCATGCGATTATCATAAACG   sequence
 ...
 ACGACGACACGACATCTACGTAGACATGACATCGGCGCATGCGATTATCATAAACG   sequence
      GACACGAC                                              window
-          11111111                                         score = 8
+     11111111                                              score = 8
 ...
 ACGACGACACGACATCTACGTAGACATGACATCGGCGCATGCGATTATCATAAACG   sequence
                       GACACGAC                             window
