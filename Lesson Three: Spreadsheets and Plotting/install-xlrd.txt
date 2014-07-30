@@ -1,0 +1,11 @@
+TO INSTALL XLRD
+
+Download a zip file from here: https://github.com/python-excel/xlrd
+
+Save in \Python27\Lib\site-packages 
+
+Using the command prompt, move into that directory: 
+	cd \Python27\Lib\site-packages\xlrd-master
+
+and run the command:
+	python setup.py install
